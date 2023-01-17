@@ -4,10 +4,10 @@ DiscordJS is a JavaScript library for dealing with Basic Discord Bot comamands.
 
 ## Installation
 
-Use the package manager [pip](https://pip.pypa.io/en/stable/) to initialize .
+Use the package manager [npm](https://nodejs.org/en/) to initialize .
 
 ```bash
-pip install Discord
+npm install Discord
 ```
 ## Contributing
 
