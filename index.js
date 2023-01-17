@@ -28,6 +28,11 @@ client.on("message", function(message) {
     const numArgs = args.map(y => parseFloat(y));
     message.reply('In diesem Log finden Sie die Hilfestellung zu dem Reavex Server');
   }
+
+  else if (command === "Duarte") {
+    const numArgs = args.map(y => parseFloat(y));
+    message.reply('Scheiss Ausländer');
+  }
 });
 
-client.login(config.MTA1NDM2NDkyMjQxMjI4NTk5Mg.GhyLD-.JkfudHCoKmy9uIa2tMlnfDYlOaq-Yib0HamIFA);
+client.login("config.MTA1NDM2NDkyMjQxMjI4NTk5Mg.GhyLD-.JkfudHCoKmy9uIa2tMlnfDYlOaq-Yib0HamIFA");
